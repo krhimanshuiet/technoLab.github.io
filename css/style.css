@@ -1,0 +1,120 @@
+html{
+    height: 200%;
+}
+
+
+.navbar-default .navbar-brand{
+    color: black;
+}
+
+
+body{
+    background:url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) no-repeat;
+    background-size:cover;
+    background-position:center;
+    font-family:Catamaran;
+}
+
+.center{
+    text-align: center;
+    padding-top: 6%;
+}
+
+
+h1,p{
+    background-color:yellow;
+    opacity: .7;
+    color:black;
+    font-size:3em;
+}
+
+.btn{
+    border:2px solid green;
+}
+
+
+.footer{
+    color: black;
+    background-color:white;
+}
+
+.footer p{
+    font-size: 1.5em;
+    background-color: white;
+    text-align: center;
+}
+
+.symbol{
+    color:orchid;
+}
+
+
+.love{
+    color: red;
+}
+
+
+
+
+
+
+#login{
+    min-width: 250px;
+    background-color:rgba(255,255,255,0.7);
+    padding: 14px 14px 0;
+    overflow: hidden;
+}
+
+#login .social-buttons{
+    margin: 12px 0;
+}
+
+.btn-fb{
+    color: #fff;
+    background-color: #3b599d;
+}
+
+
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+}
+
+@media (max-width:768px){
+    h1,p{
+        background-color:orange;
+    }
+    h2{
+        background-color:#449d44;
+        opacity: .5;
+
+    }
+
+}
+
+
+@media (min-width:768px) {
+    h1,p{
+        background-color: skyblue;
+    }
+    h2{
+        background-color: pink;
+        opacity: .6;
+    }
+}
+
+@media (min-width:992px) {
+    h1,p{
+        background-color:yellowgreen;
+    }
+    h2{
+        background-color: #fff;
+    }
+}
+
+
+
+
+ 
+
+
